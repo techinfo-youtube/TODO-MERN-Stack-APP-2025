@@ -1,0 +1,53 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.9rem;
+  max-width: 1100px;
+  margin: 0rem auto -6rem;
+  height: 100vh;
+}
+
+.intro-text h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.intro-text p {
+  margin-bottom: 1.7rem;
+}
+
+.tagline1 {
+  color: #1a2e35;
+}
+
+.tagline2 {
+  color: #ff775f;
+}
+
+.btn {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 0.8rem 1rem;
+  border: none;
+  font-size: 1rem;
+  border-radius: 4px;
+  color: #fff;
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.red {
+  background-color: #ff775f;
+  margin-right: 1.5rem;
+}
+
+.blue {
+  background-color: #1a67f6;
+}
+
+.blue:hover {
+  background-color: #0059fd;
+  color: #fff;
+}
