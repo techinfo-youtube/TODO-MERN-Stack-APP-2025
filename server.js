@@ -21,6 +21,7 @@ app.use(morgan("dev"));
 
 //routes
 app.use("/api/v1/user", require("./routes/userRoute"));
+app.use("/api/v1/todo", require("./routes/todoRoute"));
 app.use("/api/v1/test", require("./routes/testRouter"));
 
 //port
